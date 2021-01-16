@@ -131,27 +131,7 @@ const PrimaryHeader = ({history}) => {
                 </Toolbar>
             </AppBar>
         </div>
-            <div className={classes.root1}>
-                <GridList className={classes.gridList} cols={2.5}>
-                    {tileData.map((tile) => (
-                        <GridListTile key={tile.img}>
-                            <img src={tile.img} alt={tile.title} />
-                            <GridListTileBar
-                                title={tile.title}
-                                classes={{
-                                    root: classes.titleBar,
-                                    title: classes.title,
-                                }}
-                                actionIcon={
-                                    <IconButton aria-label={`star ${tile.title}`}>
-                                        <StarBorderIcon className={classes.title1} />
-                                    </IconButton>
-                                }
-                            />
-                        </GridListTile>
-                    ))}
-                </GridList>
-            </div>
+
         </>
 
     );

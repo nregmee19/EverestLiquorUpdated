@@ -87,32 +87,7 @@ export default function MainLayout() {
         exit: theme.transitions.duration.leavingScreen,
     };
 
-    const fabs = [
-        {
-            color: 'primary',
-            className: classes.fab,
-            icon: <AddIcon />,
-            label: 'Add',
-        },
-        {
-            color: 'secondary',
-            className: classes.fab,
-            icon: <EditIcon />,
-            label: 'Edit',
-        },
-        {
-            color: 'inherit',
-            className: clsx(classes.fab, classes.fabGreen),
-            icon: <UpIcon />,
-            label: 'Expand',
-        },
-        {
-            color: 'inherit',
-            className: clsx(classes.fab, classes.fabGreen),
-            icon: <UpIcon />,
-            label: 'Expand',
-        },
-    ];
+
 
     return (
         <div className={classes.root}>
@@ -140,7 +115,10 @@ export default function MainLayout() {
                     <ScotchPage/>
                 </TabPanel>
                 <TabPanel value={value} index={1} dir={theme.direction}>
-                    Item Two
+                    <Typography variant="h3">
+                    We serve wide variety of spirit. This page is under construction please contact store
+                    for detail.
+                    </Typography>
                 </TabPanel>
                 <TabPanel value={value} index={2} dir={theme.direction}>
                     Item Three
@@ -149,21 +127,7 @@ export default function MainLayout() {
                     Item Three
                 </TabPanel>
             </SwipeableViews>
-            {fabs.map((fab, index) => (
-                <Zoom
-                    key={fab.color}
-                    in={value === index}
-                    timeout={transitionDuration}
-                    style={{
-                        transitionDelay: `${value === index ? transitionDuration.exit : 0}ms`,
-                    }}
-                    unmountOnExit
-                >
-                    <Fab aria-label={fab.label} className={fab.className} color={fab.color}>
-                        {fab.icon}
-                    </Fab>
-                </Zoom>
-            ))}
+
         </div>
     );
 }

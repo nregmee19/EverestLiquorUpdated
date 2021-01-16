@@ -5,11 +5,7 @@ import image4 from "../Resources/Images/IMG_5270.JPG";
 import image5 from "../Resources/Images/IMG_5271.JPG";
 import image6 from "../Resources/Images/IMG_5272.JPG";
 import image7 from "../Resources/Images/IMG_5273.JPG";
-import image8 from "../Resources/Images/IMG_5274.JPG";
-import image9 from "../Resources/Images/IMG_5286.JPG";
-import image10 from "../Resources/Images/IMG_5288.JPG";
-import image11 from "../Resources/Images/IMG_5288 (2).JPG";
-import image12 from "../Resources/Images/IMG_5290.JPG";
+
 
 const tileData = [
     {

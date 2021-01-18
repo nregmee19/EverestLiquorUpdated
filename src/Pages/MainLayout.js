@@ -1,22 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import clsx from 'clsx';
+
 import SwipeableViews from 'react-swipeable-views';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
-import Zoom from '@material-ui/core/Zoom';
-import Fab from '@material-ui/core/Fab';
-import AddIcon from '@material-ui/icons/Add';
-import EditIcon from '@material-ui/icons/Edit';
-import UpIcon from '@material-ui/icons/KeyboardArrowUp';
+
 import { green } from '@material-ui/core/colors';
 import Box from '@material-ui/core/Box';
 
 
 import ScotchPage from "./ScotchPage/ScotchPage";
+import BeerPage from "./Beer/BeerPage";
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -82,10 +79,7 @@ export default function MainLayout() {
         setValue(index);
     };
 
-    const transitionDuration = {
-        enter: theme.transitions.duration.enteringScreen,
-        exit: theme.transitions.duration.leavingScreen,
-    };
+
 
 
 
@@ -124,7 +118,7 @@ export default function MainLayout() {
                     Item Three
                 </TabPanel>
                 <TabPanel value={value} index={3} dir={theme.direction}>
-                    Item Three
+                    <BeerPage/>
                 </TabPanel>
             </SwipeableViews>
 

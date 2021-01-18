@@ -7,11 +7,7 @@ import InputBase from '@material-ui/core/InputBase';
 import { fade, makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
-import StarBorderIcon from '@material-ui/icons/StarBorder';
-import tileData from './tileData';
+
 
 const useStyles = makeStyles((theme) => ({
     root: {

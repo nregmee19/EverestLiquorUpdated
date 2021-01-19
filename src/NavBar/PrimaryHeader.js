@@ -98,19 +98,11 @@ const PrimaryHeader = ({history}) => {
                     >
                         <MenuIcon/>
                     </IconButton>
-                    <Typography className={classes.title} variant="h6" >
+                    <Typography className={classes.title} variant="h1" >
                         Everest Liquor
                     </Typography>
                     <br/>
-                    <Typography className={classes.title} variant="subtitle2" >
-                        1601 E 5th Street Unit #130
-                    </Typography>
-                    <Typography className={classes.title} variant="subtitle2" >
-                        Austin, TX 78702
-                    </Typography>
-                    <Typography className={classes.title} variant="subtitle2" >
-                        ph: (737) 203-8975
-                    </Typography>
+
                     <div className={classes.search}>
                         <div className={classes.searchIcon}>
                             <SearchIcon/>

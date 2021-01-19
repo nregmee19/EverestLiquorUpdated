@@ -2,67 +2,62 @@
 const tileData = [
     {
         img: "https://s3.us-east-2.amazonaws.com/www.everestliquoraustin.com/Images/beer/Craft+Beer/el-segundo-steve-austins-broken-skull-4pack-cans_1600x.jpg",
-        title: 'Glenffiddich 12Years',
+        title: 'Broken Skull IPA',
         author: 'See Store',
     },
     {
         img: "https://s3.us-east-2.amazonaws.com/www.everestliquoraustin.com/Images/beer/Craft+Beer/fireEagle.jfif",
-        title: 'Glenffiddich 14Y',
+        title: 'Fire Eagle IPA',
         author: 'See Store',
     },
     {
         img: "https://s3.us-east-2.amazonaws.com/www.everestliquoraustin.com/Images/beer/Craft+Beer/independence-austin-amber-12-oz-cans-001837043.jpg",
-        title: 'Aberlour',
+        title: 'Independence Austin',
         author: 'See Store',
     },
     {
         img: "https://s3.us-east-2.amazonaws.com/www.everestliquoraustin.com/Images/beer/Craft+Beer/large_8018a4e4-6a97-4dcf-bede-47a518d46a2c.jpg",
-        title: 'Dalmore 12 Years',
+        title: 'Austin East Cider-Pineapple',
         author: 'See Store',
     },
     {
         img: "https://s3.us-east-2.amazonaws.com/www.everestliquoraustin.com/Images/beer/Craft+Beer/pearl-snap.jfif",
-        title: 'Glenfiddich18',
+        title: 'Pearl-Snap',
         author: 'See Store',
     },
     {
         img: "https://s3.us-east-2.amazonaws.com/www.everestliquoraustin.com/Images/beer/Craft+Beer/pinthousepizza.jpg",
-        title: 'Glendronach12',
+        title: 'PintHouse Pizza',
         author: 'See Store',
     },
     {
         img: "https://s3.us-east-2.amazonaws.com/www.everestliquoraustin.com/Images/beer/Imported/corona.jfif",
-        title: 'BlueLabel',
-        author: '$ 299.99',
+        title: 'Corona Extra',
+        author: 'See Store',
     },
     {
         img: "https://s3.us-east-2.amazonaws.com/www.everestliquoraustin.com/Images/beer/Imported/heineken.jfif",
-        title: 'GoldLabel',
+        title: 'Heineken',
         author: 'See Store',
     },
     {
         img: "https://s3.us-east-2.amazonaws.com/www.everestliquoraustin.com/Images/beer/Domestic/beer_coors_light_sxbt_z.jpg",
-        title: 'Green Label',
+        title: 'Coors Light',
         author: 'See Store',
     },
     {
         img: "https://s3.us-east-2.amazonaws.com/www.everestliquoraustin.com/Images/beer/Domestic/miller-lite-beer-12-oz-bottles-000113117.jpg",
-        title: 'Black Label',
-        author: 'See Store',
-    },
-    {
-        img: "https://s3.us-east-2.amazonaws.com/www.everestliquoraustin.com/Images/scotch/scotch/Whisky_Scotch_Blended_-_redlebel__79988.1480634810.jfif",
-        title: 'Red Lebal',
+        title: 'Miller Lite',
         author: 'See Store',
     },
     {
         img: "https://s3.us-east-2.amazonaws.com/www.everestliquoraustin.com/Images/beer/Domestic/FullSizeRender-8.jpg",
-        title: 'Jura 10 Y',
+        title: '12 Pack Beers',
         author: 'See Store',
     },
     {
         img: "https://s3.us-east-2.amazonaws.com/www.everestliquoraustin.com/Images/beer/Domestic/budlight.jpg",
-        title: 'Macallan 12Y',
+        title: 'Bud Light',
         author: 'See Store',
     },
 
